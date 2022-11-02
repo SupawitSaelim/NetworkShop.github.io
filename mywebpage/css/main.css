@@ -89,3 +89,46 @@ body {
     font-size: 45px;
     text-transform: uppercase;
 }
+.analysist {
+  margin: 0;
+  background-image: url("../images/analy.webp"); background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.text1 {
+  font-size: 50px;
+  padding: 40px;
+}
+.text1:hover {
+  font-size: 50px;
+  padding: 40px;
+  opacity: 0.7;
+  transition: all 0.4 ease;
+}
+
+.service {
+  margin-left: 40px;
+  margin-top: 50px;
+  width: 20%;
+  height: 40%;
+  float: left;
+  text-align: center;
+}
+.servicestyle2 {
+  margin-left: 10px;
+  margin-top: 250px;
+  width: 50%;
+  height: auto;
+  text-align: left;
+}
+
+.style1 {
+  font-size: 20px;
+}
+
+.analysist h1:hover {
+  opacity: 0.7;
+} 
