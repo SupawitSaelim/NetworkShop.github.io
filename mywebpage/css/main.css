@@ -70,6 +70,39 @@ body {
     background-size: cover;
     background-position: center center;
 }
+
+.wallhead1{
+  background-image: url(../images/contact.jpeg);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wallhead2{
+  background-image: url(../images/switch.png);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wallhead3{
+  background-image: url(../images/router.png);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wallhead4{
+  background-image: url(../images/wireless.png);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+}
+
  .container-left {
     width: 1200px;
     margin: 0 auto;
