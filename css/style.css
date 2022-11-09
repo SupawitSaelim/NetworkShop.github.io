@@ -111,7 +111,7 @@ a:focus {
 .slider_section .carousel-control-next {
   width: 90px;
   height: 90px;
-  background-color: #252525;
+  background-color: coral;
   opacity: 1;
   top: 50%;
   -webkit-transform: translateY(-50%);
