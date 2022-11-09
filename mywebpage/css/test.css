@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.menuside {
+    list-style-type: none;
+    background-color: tomato;
+    margin: 0%;
+    padding: 0%;
+    width: 20%;
+    position:fixed;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.menuside li {
+    text-align: center;
+    font-size: 20px;
+    padding: 20%;
+    transition: all 0.4s ease;
+
+}
+.menuside li:hover {
+    background-color: coral;
+}
+
+.menuside li a {
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 0%;
+}
+.menuside li a:hover {
+    text-decoration: none;
+    color:black;
+    padding: 0%;
+}
+
+.content {
+    margin-left: 20%;
+    padding: 1%;
+    
+}

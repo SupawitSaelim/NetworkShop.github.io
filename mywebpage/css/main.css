@@ -153,9 +153,10 @@ body {
 .servicestyle2 {
   margin-left: 10px;
   margin-top: 250px;
-  width: 50%;
+  width: 70%;
   height: auto;
   text-align: left;
+  text-indent: 50px;
 }
 
 .style1 {
