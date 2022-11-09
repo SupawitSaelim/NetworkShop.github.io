@@ -157,6 +157,10 @@ a:focus {
   text-align: center;
   position: relative;
 }
+.nav_section .custom_nav2 .custom_nav-container .navbar-nav .nav-item .nav-link:hover {
+  background-color: tomato;
+  border-radius: 10px;
+}
 
 .nav_section .custom_nav2 #navbarSupportedContent {
   -webkit-box-pack: center;
