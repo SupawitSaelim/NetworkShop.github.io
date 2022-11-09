@@ -31,13 +31,14 @@ body {
 /*header section*/
 .sub_page .brand_box {
   position: relative;
-  background-image: url(../images/slider-img.jpg);
+  background-image: url(../images/Routing_Hero_ProductRendering_3200x1312.webp);
+  background-size: cover;
   padding: 45px 0;
 }
 
 .sub_page .nav_section {
   margin-top: 0;
-  background-color: #252525;
+  background-color: coral;
 }
 
 .brand_box {
