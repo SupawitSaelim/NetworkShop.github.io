@@ -5,7 +5,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 0px 0;
 }
 
 .layout_padding2 {
@@ -577,7 +577,7 @@ a:focus {
 /* contact section */
 /* info section */
 .info_section {
-  background-color: #2e2e2e;
+  background-color: coral;
   color: #ffffff;
 }
 
