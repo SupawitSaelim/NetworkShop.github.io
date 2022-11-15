@@ -35,6 +35,13 @@ body {
   background-size: cover;
   padding: 45px 0;
 }
+.sub_page1 .brand_box {
+  position: relative;
+  background-image: url(../images/wallheadprod.jpg);
+  background-size: cover;
+  padding: 45px 0;
+  height: 300px;
+}
 
 .sub_page .nav_section {
   margin-top: 0;
@@ -60,6 +67,27 @@ body {
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
+}
+.leftside {
+  width: 35%;
+}
+
+.rightside {
+  width: 50%;
+}
+
+.imageprod {
+  width:100%;
+  background-color: red;
+  height: 400px;
+  margin: 80px 120px;
+  overflow: hidden;
+}
+
+.detailprod {
+  width: 90%;
+  margin-left: 100%;
+  margin-top: 20%;
 }
 
 a,
