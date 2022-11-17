@@ -184,9 +184,11 @@ a:focus {
   color: #ffffff;
   text-align: center;
   position: relative;
+  transition: all 0.3s ease;
 }
 .nav_section .custom_nav2 .custom_nav-container .navbar-nav .nav-item .nav-link:hover {
-  background-color: tomato;
+  background-color: #333;
+  color:coral;
   border-radius: 10px;
 }
 
