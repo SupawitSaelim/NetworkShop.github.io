@@ -43,12 +43,10 @@
 
   <!-- nav section -->
 
-  <!-- nav section -->
-
   <section class="nav_section">
     <div class="container">
       <div class="custom_nav2">
-        <nav class="navbar navbar-expand custom_nav-container ">
+        <nav class="navbar navbar-expand custom_nav-container " style="z-index: 5;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -88,8 +86,6 @@
     </div>
   </section>
 
-  <!-- end nav section -->
-
   <!-- fruit section -->
 
   <section class="fruit_section layout_padding" style="margin-top: 50px;">
@@ -97,7 +93,7 @@
       <div class="heading_container">
         <hr>
         <h2>
-          Access point
+          Access Point
         </h2>
       </div>
     </div>
@@ -108,11 +104,12 @@
           <img src="images/f-1.jpg" alt="">
           <div class="link_box">
             <h5>
-              Orange
+              Test1
             </h5>
             <a href="">
               Buy Now
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="test1" data-price="9" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -124,6 +121,7 @@
             <a href="">
               Buy Now
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="ใส่ชื่อห้ามเว้นวรรค" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -135,6 +133,7 @@
             <a href="">
               Buy Now
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="ใส่ชื่อห้ามเว้นวรรค" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -146,6 +145,7 @@
             <a href="">
               Buy Now
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="ใส่ชื่อห้ามเว้นวรรค" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -157,6 +157,7 @@
             <a href="">
               Buy Now
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="ใส่ชื่อห้ามเว้นวรรค" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -168,6 +169,7 @@
             <a href="">
               Buy Now
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="ใส่ชื่อห้ามเว้นวรรค" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
       </div>
@@ -175,23 +177,53 @@
   </section>
 
   <!-- end fruit section -->
-
+   <!-- Main --> <!-- testttttttttttttttttttttttttttttttt -->
+   <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="row">
+      <div class="col">
+        <button style="background-color:coral;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button style="background-color:white;color:black;" class="clear-cart btn btn-danger">Clear Cart</button>
+      </div>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+  
+          </table>
+          <div>Total price: $<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- info section -->
-<!-- info section -->
-<section class="info_section layout_padding">
-  <div class="container">
-    <div class="info_logo">
-      <h2>
-        NETWORK SHOP
-      </h2>
-    </div>
-
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="info_logo">
+        <h2>
+          NETWORK SHOP
+        </h2>
+      </div>
   <!-- end info section -->
-
+  
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/test.js"></script>
+
 
 </body>
 

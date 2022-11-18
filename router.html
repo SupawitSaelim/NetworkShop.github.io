@@ -43,17 +43,17 @@
 
   <!-- nav section -->
 
-  <section class="nav_section">
+  <section class="nav_section" >
     <div class="container">
-      <div class="custom_nav2">
-        <nav class="navbar navbar-expand custom_nav-container ">
+      <div class="custom_nav2" >
+        <nav class="navbar navbar-expand custom_nav-container " style="z-index: 5;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex  flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+              <ul class="navbar-nav" >
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -107,10 +107,10 @@
               Cisco 1000 Series Integrated Services Routers
             </h5>
             <a href="detailsproduct/cis1000.html">
-              Lear More
+              Learn More
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="rounter1000Series" data-price="9999" class="add-to-cart btn btn-primary">Add to cart</a>          </div>
           </div>
-        </div>
         <div class="box">
           <img src="images/router2.webp" alt="">
           <div class="link_box">
@@ -118,8 +118,9 @@
               Cisco 900 Series Integrated Services Routers
             </h5>
             <a href="detailsproduct/cis900.html">
-              Lear More
+              Learn More
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="rounter900Series" data-price="14299" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -129,8 +130,9 @@
               Cisco Network Convergence System (NCS) 520 Series
             </h5>
             <a href="detailsproduct/cis520.html">
-              Lear More
+              Learn More
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="rounter520Series" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -140,8 +142,9 @@
               Cisco Network Convergence System (NCS) 540 Series
             </h5>
             <a href="detailsproduct/cis540.html">
-              Lear More
+              Learn More
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="rounter540Series" data-price="10009" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -151,8 +154,9 @@
               Cisco 4000 Series Integrated Services Routers
             </h5>
             <a href="detailsproduct/cis4000.html">
-              Lear More
+              Learn More
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="rounter4000Series" data-price="15899" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
         <div class="box">
@@ -162,8 +166,9 @@
               Cisco Network Convergence System 5000 Series
             </h5>
             <a href="detailsproduct/cis5000.html">
-              Lear More
+              Learn More
             </a>
+            <a style="margin-top:10px;background-color: coral;" href="#" data-name="rounter5000Series" data-price="38450" class="add-to-cart btn btn-primary">Add to cart</a>
           </div>
         </div>
       </div>
@@ -171,6 +176,37 @@
   </section>
 
   <!-- end fruit section -->
+  <!-- Main --> <!-- testttttttttttttttttttttttttttttttt -->
+  <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="row">
+      <div class="col">
+        <button style="background-color:coral;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button style="background-color:white;color:black;" class="clear-cart btn btn-danger">Clear Cart</button>
+      </div>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+  
+          </table>
+          <div>Total price: $<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- info section -->
@@ -187,6 +223,7 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/test.js"></script>
 
 </body>
 
