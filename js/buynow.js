@@ -1,7 +1,7 @@
 function buynow() {
   Swal.fire({
     icon: 'success',
-    title: 'บันทึกสำเร็จ',
+    title: 'FINISH♥',
     text: 'Completed !',
     timer: 2000
     
