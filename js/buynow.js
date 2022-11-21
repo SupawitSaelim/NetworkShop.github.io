@@ -3,7 +3,6 @@ function buynow() {
     icon: 'success',
     title: 'FINISH♥',
     text: 'Completed !',
-    timer: 2000
     
 });
 }
