@@ -31,9 +31,10 @@ body {
 /*header section*/
 .sub_page .brand_box {
   position: relative;
-  background-image: url(../images/Routing_Hero_ProductRendering_3200x1312.webp);
-  background-size: cover;
+  background-image: url(../images/backmain.webp);
   padding: 45px 0;
+  background-repeat: no-repeat;
+  background-position: 60%;
 }
 .sub_page1 .brand_box {
   position: relative;
@@ -65,7 +66,7 @@ body {
 .brand_box .navbar-brand span {
   font-size: 34px;
   font-weight: bold;
-  color: #ffffff;
+  color: coral;
   text-transform: uppercase;
 }
 .leftside {
