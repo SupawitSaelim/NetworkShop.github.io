@@ -103,6 +103,10 @@ var shoppingCart = (function() {
         totalCart += cart[item].price * cart[item].count;
       }
       return Number(totalCart.toFixed(2));
+      
+    }
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
   
     // List cart
